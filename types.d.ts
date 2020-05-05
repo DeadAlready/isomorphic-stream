@@ -12,15 +12,15 @@ import {
 
 declare module "isomorphic-stream" {
   namespace internal {
-    export type Stream = NodeStream;
-    export type ReadableOptions = NodeReadableOptions;
-    export type Readable = NodeReadable;
-    export type WritableOptions = NodeWritableOptions;
-    export type Writable = NodeWritable;
-    export type DuplexOptions = NodeDuplexOptions;
-    export type Duplex = NodeDuplex;
-    export type TransformOptions = NodeTransformOptions;
-    export type Transform = NodeTransform;
+    class Stream extends NodeStream {}
+    interface ReadableOptions extends NodeReadableOptions {}
+    class Readable extends NodeReadable {}
+    interface WritableOptions extends NodeWritableOptions {}
+    class Writable extends NodeWritable {}
+    interface DuplexOptions extends NodeDuplexOptions {}
+    class Duplex extends NodeDuplex {}
+    interface TransformOptions extends NodeTransformOptions {}
+    class Transform extends NodeTransform {}
   }
 
   export = internal;
