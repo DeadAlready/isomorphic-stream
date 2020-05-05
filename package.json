@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/DeadAlready/isomorphic-stream#readme",
   "dependencies": {
-    "@types/node": "^13.13.4",
     "stream-browserify": "^3.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^13.13.4"
+  }
 }
