@@ -1,0 +1,28 @@
+{
+  "name": "isomorphic-stream",
+  "version": "1.0.0",
+  "description": "Resolves to stream or stream-browserify based on context",
+  "main": "index.js",
+  "browser": "browser.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -d --declarationDir types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadAlready/isomorphic-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeadAlready/isomorphic-stream/issues"
+  },
+  "homepage": "https://github.com/DeadAlready/isomorphic-stream#readme",
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {}
+}
