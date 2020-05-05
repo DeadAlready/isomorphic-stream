@@ -23,7 +23,5 @@
   "dependencies": {
     "stream-browserify": "^3.0.0"
   },
-  "devDependencies": {
-    "@types/node": "^13.13.4"
-  }
+  "devDependencies": {}
 }
