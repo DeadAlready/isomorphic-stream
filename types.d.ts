@@ -1,12 +1,12 @@
 import {
-  Readable, Stream, ReadableOptions
+  Readable as StreamReadable, ReadableOptions as StreamReadableOptions
 } from 'stream';
 
-declare namespace unstream {
-  export type IsomorphicReadable = Readable;
-  export type IsomorphicReadableOptions = ReadableOptions;
+declare module "unstream" {
+  namespace internal {
+    export type Readable = StreamReadable;
+    export type ReadableOptions = StreamReadableOptions;
+  }
+
+  export = internal;
 }
-
-declare const unstream: typeof Stream;
-
-export default unstream;
