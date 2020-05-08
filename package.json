@@ -20,8 +20,9 @@
     "url": "https://github.com/DeadAlready/isomorphic-stream/issues"
   },
   "homepage": "https://github.com/DeadAlready/isomorphic-stream#readme",
-  "dependencies": {
-    "stream-browserify": "^3.0.0"
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "stream-browserify": "*"
+  }
 }
