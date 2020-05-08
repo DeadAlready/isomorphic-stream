@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolves to stream or stream-browserify based on context",
   "main": "index.js",
   "browser": "browser.js",
@@ -13,9 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/DeadAlready/isomorphic-stream.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "stream",
+    "isomorphic"
+  ],
+  "author": "Karl Düüna",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DeadAlready/isomorphic-stream/issues"
   },
